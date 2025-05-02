@@ -6,4 +6,21 @@ In the folder, there are three .exe files.
 
 Name v2 is a long-term code build, I believe.
 
-And the others might be expired or not. Who knows? 🙃
+And the other might be expired or not. Who knows? 🙃
+
+> Lastly, if you get an FFmpeg error saying it failed to download, don't worry. I have already bundled the FFmpeg.exe within the .exe. So, just check the folder you selected; your converted .mp3 files will be there.
+
+If you want to remove that error, add FFmpeg to the System PATH.
+
+Download link:
+https://www.gyan.dev/ffmpeg/builds/
+
+And select:
+ffmpeg-git-essentials.7z
+
+Extract the folder and save it somewhere on any drive. Then, go to the bin folder, for example:
+C:\Program Files (x86)\ffmpeg-date-git-version-essentials_build\bin
+
+Add the location above to the System PATH.
+
+How do you access the System PATH? I'm done for now.
