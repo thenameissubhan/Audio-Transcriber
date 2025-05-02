@@ -1,0 +1,102 @@
+===========================================================
+HOW TO GENERATE AWS ACCESS KEY AND SECRET KEY
+(for VideoTranscriber App)
+===========================================================
+
+Follow these simple steps to create the credentials you need:
+
+-----------------------------------------------------------
+1️⃣ FIRST: LOGIN TO AWS CONSOLE
+-----------------------------------------------------------
+Go to https://aws.amazon.com → click “Sign in” → log in to your AWS account.
+
+-----------------------------------------------------------
+2️⃣ GO TO IAM DASHBOARD
+-----------------------------------------------------------
+Once logged in:
+
+👉 Click on **“Services”** at the top
+👉 Search for **“IAM”** → click to open **IAM Dashboard**
+
+-----------------------------------------------------------
+3️⃣ CREATE A NEW USER
+-----------------------------------------------------------
+✅ On the left side, under **“Access management”**, click **“Users”**.
+
+✅ On the right side → click **“Add users”**.
+
+✅ Enter **any user name** you want (e.g., `videotranscriber-user`).
+
+✅ Check the box for **“Access key - Programmatic access”**.
+
+👉 Then click **“Next: Permissions”**.
+
+-----------------------------------------------------------
+4️⃣ ATTACH REQUIRED POLICIES
+-----------------------------------------------------------
+✅ On the next page (**“Set permissions”**), choose:
+
+👉 **“Attach policies directly”**
+
+✅ In the list of policies, **search and check these two:**
+
+- ✅ **AmazonS3FullAccess**
+- ✅ **AmazonTranscribeFullAccess**
+
+👉 After selecting both, click **“Next: Tags”**.
+
+(Skip adding tags if you want)
+
+👉 Click **“Next: Review”**.
+
+✅ Finally, click **“Create user”**.
+
+🎉 DONE → you’ve created the user!
+
+-----------------------------------------------------------
+5️⃣ GENERATE ACCESS KEY
+-----------------------------------------------------------
+✅ Now you’ll see your new user listed → click their **username**.
+
+✅ On the user’s page, look to the **right side** → under “Security credentials” tab.
+
+👉 Find **“Access keys”** → click **“Create access key”**.
+
+✅ On the popup:
+
+👉 Choose **“Other”** (best option for apps like this) → click **“Next”**.
+
+✅ Then click **“Create access key”**.
+
+🎉 DONE → you’ll now see the **Access Key ID** and **Secret Access Key** on the screen.
+
+⚠️ **IMPORTANT:**
+- Click **“Download .csv file”** or copy both keys manually
+- Store them safely—you won’t see the secret key again!
+
+-----------------------------------------------------------
+6️⃣ NEXT STEP: BUCKET NAME
+-----------------------------------------------------------
+You also need an S3 bucket for storing files.
+
+✅ Go to **S3** service in AWS console.
+
+✅ Click **“Create bucket”** → enter a unique **bucket name** (e.g., `videotranscriber-bucket123`).
+
+✅ Keep the other options default → click **“Create bucket”**.
+
+Write down your bucket name—you’ll need to enter it in the app.
+
+===========================================================
+✅ YOU’RE DONE!
+
+Now launch **VideoTranscriber.exe**, enter:
+
+➔ Access Key ID  
+➔ Secret Access Key  
+➔ Region (same region as your bucket)  
+➔ Bucket Name  
+
+Then click **“Save Credentials”** → you’re ready to use the app!
+
+===========================================================
