@@ -6,7 +6,7 @@ In the folder, there are three .exe files.
 
 Name v2 is a long-term code build, I believe.
 
-And the others might be expired or not. Who knows? 🙃
+And the other might be expired or not. Who knows? 🙃
 
 > Lastly, if you get an FFmpeg error saying it failed to download, don't worry. I have already bundled the FFmpeg.exe within the .exe. So, just check the folder you selected; your converted .mp3 files will be there.
 
