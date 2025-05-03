@@ -7,33 +7,42 @@
 
 For more information, visit the [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all).
 
+---
 
+### 📄 Instructions
 
+✅ Read the `how-to.txt` file.  
 
-Read the how-to .txt file.
+In the folder, you'll find **three `.exe` files**.
 
-In the folder, there are three .exe files.
+![Screenshot](https://github.com/user-attachments/assets/12d6eb72-0d93-4afb-8e38-829e9384d405)
 
-![Screenshot 2025-05-02 235509](https://github.com/user-attachments/assets/12d6eb72-0d93-4afb-8e38-829e9384d405)
+- **`Name v2`** is a long-term code build (I believe 🤷‍♂️).
+- The other might be expired... or not. Who knows? 🙃
 
+---
 
-Name v2 is a long-term code build, I believe.
+> 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
+> I’ve already bundled `ffmpeg.exe` inside the `.exe`.  
+> Just check the folder you selected; your converted `.mp3` files will be there.
 
-And the other might be expired or not. Who knows? 🙃
+---
 
-> Lastly, if you get an FFmpeg error saying it failed to download, don't worry. I have already bundled the FFmpeg.exe within the .exe. So, just check the folder you selected; your converted .mp3 files will be there.
+### 🛠️ Optional: Remove the FFmpeg error
 
-If you want to remove that error, add FFmpeg to the System PATH.
+If you'd rather **remove that error message**, add FFmpeg to your system PATH.
 
-Download link:
-https://www.gyan.dev/ffmpeg/builds/
+1. Download FFmpeg from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)  
+2. Select: `ffmpeg-git-essentials.7z`  
+3. Extract the folder somewhere on any drive.
+4. Inside the extracted folder, go to the `bin` directory. Example: 
+ 
+>C:\Program Files (x86)\ffmpeg-<date>-git-<version>-essentials_build\bin
 
-And select:
-ffmpeg-git-essentials.7z
+5. Copy that path.
+6. Add it to your **System PATH** environment variable.
 
-Extract the folder and save it somewhere on any drive. Then, go to the bin folder, for example:
-C:\Program Files (x86)\ffmpeg-date-git-version-essentials_build\bin
+---
 
-Add the location above to the System PATH.
-
-How do you access the System PATH? I'm done for now.
+🤔 **How do you access the System PATH?**  
+I'm done for now 😅.
