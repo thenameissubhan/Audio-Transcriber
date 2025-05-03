@@ -14,8 +14,8 @@ For more information, visit the [AWS Free Tier](https://aws.amazon.com/free/?all
 ✅ Read the `how-to.txt` file.  
 
 In the folder, you'll find **three `.exe` files**.
+![Screenshot 2025-05-03 225757](https://github.com/user-attachments/assets/39cf9610-cfdb-4397-baa8-ba7ede104ff9)
 
-![Screenshot](https://github.com/user-attachments/assets/12d6eb72-0d93-4afb-8e38-829e9384d405)
 
 - **`Name v2`** is a long-term code build (I believe 🤷‍♂️).
 - The other might be expired... or not. Who knows? 🙃
