@@ -1,6 +1,6 @@
 ## 🚨 IMPORTANT INFO!!
 
-> ⚠️ **AWS default credentials are permanently disabled for using Video Transcribe.**  
+> ⚠️ **AWS default credentials are permanently disabled for using Audio Transcribe.**  
 > 👉 **Please use your own credentials.**  
 >   
 > 🆓 **AWS is free for 12 months!**  

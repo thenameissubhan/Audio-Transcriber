@@ -1,7 +1,7 @@
 
 ===========================================================
 HOW TO GENERATE AWS ACCESS KEY AND SECRET KEY
-(for VideoTranscriber App)
+(for AudioTranscriber App)
 ===========================================================
 
 Follow these simple steps to create the credentials you need:
@@ -26,7 +26,7 @@ Once logged in:
 
 ✅ On the right side → click **“Add users”**.
 
-✅ Enter **any user name** you want (e.g., `videotranscriber-user`).
+✅ Enter **any user name** you want (e.g., `audiotranscriber-user`).
 
 ✅ Check the box for **“Access key - Programmatic access”**.
 
@@ -82,7 +82,7 @@ You also need an S3 bucket for storing files.
 
 ✅ Go to **S3** service in AWS console.
 
-✅ Click **“Create bucket”** → enter a unique **bucket name** (e.g., `videotranscriber-bucket123`).
+✅ Click **“Create bucket”** → enter a unique **bucket name** (e.g., `audiotranscriber-bucket123`).
 
 ✅ Keep the other options default → click **“Create bucket”**.
 
