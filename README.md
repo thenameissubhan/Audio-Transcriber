@@ -18,7 +18,7 @@ In the folder, you'll find **three `.exe` files**.
 
 
 - **`Name v2`** is a long-term code build (I believe 🤷‍♂️).
-- The other might be expired... or not. Who knows? 🙃
+- The other **`Name v1`** might be expired... or not. Who knows? 🙃
 
 ---
 
