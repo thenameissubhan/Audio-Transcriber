@@ -13,13 +13,6 @@ For more information, visit the [AWS Free Tier](https://aws.amazon.com/free/?all
 
 ✅ Read the `how-to.txt` file.  
 
-In the folder, you'll find **three `.exe` files**.
-![Screenshot 2025-05-03 225757](https://github.com/user-attachments/assets/39cf9610-cfdb-4397-baa8-ba7ede104ff9)
-
-
-- **`Name v2`** is a long-term code build (I believe 🤷‍♂️).
-- The other **`Name v1`** might be expired... or not. Who knows? 🙃
-
 ---
 
 > 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
@@ -28,7 +21,7 @@ In the folder, you'll find **three `.exe` files**.
 
 ---
 
-### 🛠️ Optional: Remove the FFmpeg error
+### 🛠️ Optional: Remove the FFmpeg recommendation 
 
 If you'd rather **remove that error message**, add FFmpeg to your system PATH.
 
